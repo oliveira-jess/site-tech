@@ -1,0 +1,123 @@
+:root {
+    --cor-padrao-texto: #667085;
+    --cor-padrao-vermelho: #8E2424;
+    --cor-padrao-cinza: #101828;
+
+    --fonte-padrao: "Inter", sans-serif;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-padrao-texto);
+    line-height: 24px;
+}
+
+.container-header {
+    display: flex;
+    width: auto;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 80px;
+    align-items: center;
+}
+
+.menu-navegacao {
+    display: flex;
+    gap: 40px;
+}
+
+.container-header a {
+    text-decoration: none;
+    color: var(--cor-padrao-texto);
+}
+
+.botoes-login {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.botoes-login .botao-cadastrar {
+    background: var(--cor-padrao-vermelho);
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 18px;
+    border: none;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cabecalho {
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.cabecalho h2 {
+    color: var(--cor-padrao-vermelho);
+    font-weight: 600;
+}
+
+.cabecalho h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: var(--cor-padrao-cinza);
+}
+
+.cabecalho p {
+    width: 791px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.metricas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 96px 0px;
+    gap: 64px;
+}
+
+.metricas-container{
+    display: flex;
+    align-items: initial;
+    padding: 0 32px;
+    gap: 32px;
+}
+
+.metricas-projetos, .metricas-colaboradores, .metricas-downloads, .metricas-reviews {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    gap: 20px;
+}
+
+.metricas h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: var(--cor-padrao-vermelho);
+}
+
+.metricas h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--cor-padrao-cinza);
+}
+
+.metricas p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
